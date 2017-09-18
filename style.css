@@ -1,9 +1,10 @@
 body {
-    background-color: #ffd149;
+    background-color: #3b7eb2;
     padding: 6px;
 }
 
 h1 {
+    background-color: #ff7d49;
     font-size: 3em;
     font-family: 'Seaweed Script', cursive;
 }
@@ -16,4 +17,11 @@ h2 {
 h3 {
     font-size: 1.5em;
     font-family: 'Lobster Two', cursive;
+}
+
+.text-bg {
+    background-color: #fbc522;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin: 5px;
 }
