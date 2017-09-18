@@ -25,3 +25,10 @@ h3 {
     border-radius: 12px;
     margin: 5px;
 }
+
+.description {
+    background-color: #ffd149;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin: 5px;
+}
