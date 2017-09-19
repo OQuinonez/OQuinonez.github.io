@@ -22,6 +22,10 @@ h3 {
     font-size: 1.9em;
     font-family: 'Lobster Two', cursive;
 }
+h5 {
+    font-size: 4em;
+    font-family: 'Lobster Two', cursive;
+}
 
 .text-bg {
     background-color: #fbc522;
@@ -63,4 +67,17 @@ h4 {
     text-align: center;
     color: #ffd149;
     font-family: 'Lobster Two', cursive;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+.fa-custom {
+    font-size: 1.2em;
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
