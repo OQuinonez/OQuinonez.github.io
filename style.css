@@ -1,5 +1,5 @@
 .background {
-    background-image: url('../../../../Downloads/option_2.jpg');
+    background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -76,11 +76,6 @@ h4 {
     font-family: 'Lobster Two', cursive;
 }
 
-.portfolio-image {
-    width: 100%;
-    padding: 8px 16px;
-}
-
 .fa-custom {
     font-size: 1.9em;
 }
@@ -88,4 +83,26 @@ h4 {
 .row {
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container {
+    background-color: rgba(255, 227, 145, 0.8);
+}
+
+.title {
+    background-color: rgba(51, 104, 145, 0.9);
+    border-radius: 12px;
+}
+
+.img-portfolio-container {
+    text-align: center;
+}
+
+.portfolio-image {
+    max-width: 100%;
+    max-height: 400px;
+    padding: 8px 16px;
+    border-radius: 20px;
 }
