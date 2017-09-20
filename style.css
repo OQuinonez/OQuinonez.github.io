@@ -1,10 +1,15 @@
-body {
-    background-color: #3b7eb2;
-    padding: 6px;
+.background {
+    background-image: url('../../../../Downloads/option_2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    background-color: #ff7d49;
+    background-color: #ee8a31;
     font-size: 3em;
     font-family: 'Seaweed Script', cursive;
     text-align: center;
@@ -16,6 +21,7 @@ h1 {
 h2 {
     font-size: 2.5em;
     font-family: 'Lobster Two', cursive;
+    color: #f40122;
 }
 
 h3 {
@@ -25,6 +31,7 @@ h3 {
 h5 {
     font-size: 4em;
     font-family: 'Lobster Two', cursive;
+    color: #f40122;
 }
 
 .text-bg {
