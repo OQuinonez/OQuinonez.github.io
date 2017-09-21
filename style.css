@@ -1,4 +1,4 @@
-.background {
+body {
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,4 +105,8 @@ h4 {
     max-height: 400px;
     padding: 8px 16px;
     border-radius: 20px;
+}
+
+.btn {
+    background-color: red;
 }
