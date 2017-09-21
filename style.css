@@ -108,5 +108,7 @@ h4 {
 }
 
 .btn {
-    background-color: red;
+    background-color: #fff376;
+    padding: 2px 8px;
+    margin: 6px;
 }
