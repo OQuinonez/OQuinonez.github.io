@@ -117,3 +117,7 @@ h4 {
     margin-left: 20%;
     margin-top: 5%;
 }
+
+hr {
+    line-height: 300px;
+}
