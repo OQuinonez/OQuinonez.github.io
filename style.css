@@ -10,13 +10,15 @@ body {
 }
 
 h1 {
-    color: #ee8a31;
+    color: blueviolet;
     font-size: 4em;
     font-family: 'Seaweed Script', cursive;
     text-align: center;
     vertical-align: middle;
     padding: 10px;
     border-radius: 12px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.6px;
 }
 
 h2 {
@@ -123,4 +125,5 @@ h4 {
 
 hr {
     line-height: 300px;
+    border-top: 2px solid blueviolet;
 }
