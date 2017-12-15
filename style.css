@@ -1,5 +1,5 @@
 body {
-    background-image: url('javaimage.jpg');
+    background-image: url('static/images/javaimage.jpg');
     /* background-image: url('bg.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
