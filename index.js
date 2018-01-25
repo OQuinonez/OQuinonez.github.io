@@ -1,9 +1,27 @@
 function loadBtns() {
-    // id button.click(function(){
-    // Hide other id's  use .hide(number---450?) (rest of the page***)
-    $('#btn-project').click(function() {
-        $('#Projects').show(500);
-        console.log('Hello World');
+    $('#Display').click(function() {
+        $('#Projects').hide(500);
+        $('#JavaScript').hide(500);
+        $('#home').hide(500);
+        $('#languages').show(1000);
+    });
+    $('#Home-Display').click(function() {
+        $('#Projects').hide(500);
+        $('#JavaScript').hide(500);
+        $('#languages').hide(500);
+        $('#home').show(1000);
+    });
+    $('#Python-Projects').click(function() {
+        $('#languages').show(500);
+        $('#JavaScript').hide(500);
+        $('#home').hide(500);
+        $('#Projects').show(1000);
+    });
+    $('#JavaScript-Projects').click(function() {
+        $('#Projects').hide(500);
+        $('#languages').show(500);
+        $('#home').hide(500);
+        $('#JavaScript').show(1000);
     });
 }
 
