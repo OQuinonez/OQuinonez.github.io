@@ -1,7 +1,4 @@
 body {
-    /* background-image: url('static/images/bg.jpg'); */
-    /* background-image: url('bg.jpg'); */
-    /* background-color: rgba(128, 128, 128, 0.11); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -92,15 +89,11 @@ h4 {
 }
 
 .container {
-    /* background-color: rgba(131, 130, 130, 0.788); */
-    /* background-color: rgba(255, 227, 145, 0.8); */
     background-color: maroon;
 }
 
 .title {
     background-color: rgba(17, 17, 17, 0.7);
-
-    /* background-color: rgba(51, 104, 145, 0.9); */
     border-radius: 12px;
 }
 
