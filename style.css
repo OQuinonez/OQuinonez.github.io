@@ -25,7 +25,7 @@ h1 {
 h2 {
     font-size: 2.5em;
     font-family: 'Lobster Two', cursive;
-    color: #f40122;
+    color: blueviolet;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h3 {
 h5 {
     font-size: 4em;
     font-family: 'Lobster Two', cursive;
-    color: #f40122;
+    color: blueviolet;
 }
 
 .text-bg {
@@ -94,7 +94,7 @@ h4 {
 .container {
     /* background-color: rgba(131, 130, 130, 0.788); */
     /* background-color: rgba(255, 227, 145, 0.8); */
-    background-color: rgba(44, 153, 226, 0.9);
+    background-color: maroon;
 }
 
 .title {
