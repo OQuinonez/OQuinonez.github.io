@@ -26,14 +26,22 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <center>
-                    <a href="#AboutMe" class="btn btn-lg" role="button">About</a>
+                    <!-- <a href="#AboutMe" class="btn btn-lg" role="button">About</a>
                     <a href="#AfterGraduation" class="btn btn-lg" role="button">After Graduation</a>
                     <a href="#Contact" class="btn btn-lg" role="button">Contact</a>
-                    <a href="#Work" class="btn btn-lg" role="button">Work Experience</a>
-                    <a href="#Projects" class="btn btn-lg" role="button">Projects</a>
+                    <a href="#Work" class="btn btn-lg" role="button">Work Experience</a> -->
+                    <button type="button" id="Display" class="btn btn-lg" role="button">Projects</button>
                     <a href="https://www.linkedin.com/" class="btn btn-lg" role="button" target="_blank">LinkedIn</a>
             </div>
+            <div class="col-lg-12 col-md-12 col-sm-12" id="languages" hidden>
+                <center>
+                    <button type="button" id="Python-Projects" class="btn btn-lg">Python</button>
+                    <button type="button" id="JavaScript-Projects" class="btn btn-lg">JavaScript</button>
+                    <button type="button" id="Home-Display" class="btn btn-lg">Home</button>
+                </center>
+            </div>
         </div>
+    <div id="home">
         <div class="row">
             <center>
                 <img src="https://basecampcodingacademy.org/images/class-of-2018.jpg" alt="Base Camp Coding class picture" title="Class picture"
@@ -123,14 +131,15 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+    </div>
+        <!-- <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <br>
                 <hr>
             </div>
-        </div>
+        </div> -->
         <div class="row">
-            <div id="Projects">
+            <div id="Projects" hidden>
                 <center>
                     <h5>Python Projects</h5>
                 </center>
@@ -139,7 +148,6 @@
                         <a href="#rental_store" class="btn btn-lg" role="button">Rental Store</a>
                         <a href="#gladiator" class="btn btn-lg" role="button">Gladiator Application</a>
                         <a href="#gas_pump" class="btn btn-lg" role="button">Gas Pump application</a>
-                        <a href="#JavaScript" class="btn btn-lg" role="button">JavaScript Projects</a>
                     </center>
                 </div>
                 <div class="row">
@@ -247,7 +255,7 @@
                     </div>
                 </div>
             </div>
-            <div id="JavaScript">
+            <div id="JavaScript" hidden>
                 <center>
                     <hr />
                     <h5>JavaScript Projects</h5>
@@ -328,6 +336,7 @@
                 </div>
             </div>
         </div>
+        <script src="index.js"></script>
 </body>
 
 </html>
