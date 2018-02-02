@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: blueviolet;
+    color: wheat;
     font-size: 4em;
     font-family: 'Seaweed Script', cursive;
     text-align: center;
@@ -22,7 +22,7 @@ h1 {
 h2 {
     font-size: 2.5em;
     font-family: 'Lobster Two', cursive;
-    color: blueviolet;
+    color: wheat;
 }
 
 h3 {
@@ -32,7 +32,7 @@ h3 {
 h5 {
     font-size: 4em;
     font-family: 'Lobster Two', cursive;
-    color: blueviolet;
+    color: wheat;
 }
 
 .text-bg {
@@ -121,5 +121,5 @@ h4 {
 
 hr {
     line-height: 300px;
-    border-top: 2px solid blueviolet;
+    border-top: 2px solid wheat;
 }
